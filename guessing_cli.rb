@@ -2,19 +2,19 @@
 
 #helper method that checks the guess 
 def guess (correct_guess)
-  exit = false
-  loop do
-    puts "Guess a number between 1 and 6."
-    input = gets.chomp
-    if (input.to_i > correct_guess)
-      puts "A little too high!!"
-    elsif (input.to_i < correct_guess )
-      puts "A little too low!!"
-    end
-    break if (input.to_i == correct_guess)
-  end
-    puts "You guessed the correct number!"
-    exit = true
+  # exit = false
+  # loop do
+  #   puts "Guess a number between 1 and 6."
+  #   input = gets.chomp
+  #   if (input.to_i > correct_guess)
+  #     puts "A little too high!!"
+  #   elsif (input.to_i < correct_guess )
+  #     puts "A little too low!!"
+  #   end
+  #   break if (input.to_i == correct_guess)
+  # end
+  #   puts "You guessed the correct number!"
+  #   exit = true
 end
 
 #help method runs the a list of valid commands to be done
