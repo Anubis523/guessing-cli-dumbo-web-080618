@@ -15,6 +15,7 @@ def guess (correct_guess)
   # end
   #   puts "You guessed the correct number!"
   #   exit = true
+  exit = false
   
 end
 
