@@ -16,7 +16,7 @@ def guess (correct_guess)
   #   puts "You guessed the correct number!"
   #   exit = true
   exit = false
-  
+  input = gets.chomp 
 end
 
 #help method runs the a list of valid commands to be done
