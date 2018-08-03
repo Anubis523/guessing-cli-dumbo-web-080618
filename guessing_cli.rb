@@ -20,7 +20,9 @@ def help
 end
 
 def welcome 
-  puts "Hi, and welcome to the guessing game!!"
+  puts "Hi, and welcome to the guessing game!!\n 
+  The following commands are valid:\n 
+  "
 end
 
 def exit 
