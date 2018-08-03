@@ -19,6 +19,9 @@ def guess (correct_guess)
   puts "Guess a number between 1 and 6."
   input = gets.chomp 
   if (input.to_i == correct_guess)
+    puts "You guessed the correct number!"
+  else
+    puts
   end
 end
 
