@@ -20,7 +20,7 @@ def help
 end
 
 def welcome 
-  puts "Hi, and welcome to the guessing game!!"
+  puts "i, and welcome to the guessing game!!"
 end
 
 def exit 
