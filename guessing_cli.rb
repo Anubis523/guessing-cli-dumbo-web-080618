@@ -21,7 +21,7 @@ end
 
 def welcome 
   puts "Hi, and welcome to the guessing game!!\n 
-  The following commands are valid:\n 
+  The following commands are valid:\n\n  
   "
 end
 
