@@ -21,7 +21,7 @@ def guess (correct_guess)
   if (input.to_i == correct_guess)
     puts "You guessed the correct number!"
   else
-    puts
+    puts 
   end
 end
 
