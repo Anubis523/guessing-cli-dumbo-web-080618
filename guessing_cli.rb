@@ -27,9 +27,9 @@ end
 
 #runs game loop
 def run_guessing_game
+  welcome
+  help
   loop do 
-    welcome
-    help
     exit_condition = false
     user_input = gets.chomp
       if (user_input == "guess")
