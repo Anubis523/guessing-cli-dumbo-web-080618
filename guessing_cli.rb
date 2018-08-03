@@ -16,6 +16,7 @@ def guess (correct_guess)
   #   puts "You guessed the correct number!"
   #   exit = true
   exit = false
+  puts "Guess a number between 1 and 6."
   input = gets.chomp 
 end
 
