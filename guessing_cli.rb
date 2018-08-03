@@ -23,6 +23,7 @@ def guess (correct_guess)
   else
     puts "The computer guess #{correct_guess}."
   end
+  exit = true
 end
 
 #help method runs the a list of valid commands to be done
