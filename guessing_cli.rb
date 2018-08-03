@@ -22,7 +22,7 @@ end
 def welcome 
   puts "Hi, and welcome to the guessing game!!\n 
   The following commands are valid:\n\n  
-  "
+    guess, help, or exit"
 end
 
 def exit 
