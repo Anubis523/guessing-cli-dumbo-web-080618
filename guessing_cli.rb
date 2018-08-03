@@ -18,6 +18,8 @@ def guess (correct_guess)
   exit = false
   puts "Guess a number between 1 and 6."
   input = gets.chomp 
+  if (input.to_i == correct_guess)
+  end
 end
 
 #help method runs the a list of valid commands to be done
