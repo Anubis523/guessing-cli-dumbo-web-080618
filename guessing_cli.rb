@@ -2,15 +2,12 @@
 
 #helper method that checks the guess 
 def guess (correct_guess)
-  exit = false
-  puts "Guess a number between 1 and 6."
   input = gets.chomp 
   if (input.to_i == correct_guess)
     puts "You guessed the correct number!"
   else
     puts "The computer guess #{correct_guess}."
   end
-  exit = true
 end
 
 #help method runs the a list of valid commands to be done
