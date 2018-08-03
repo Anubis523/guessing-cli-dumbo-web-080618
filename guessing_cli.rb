@@ -14,12 +14,11 @@ def guess (correct_guess)
 end
 
 #help method runs the a list of valid commands to be done
-def help
-  puts "The following commands are valid:\n
-  guess, help, or exit"
+def welcome
+  puts "Guess a number between 1 and 6."
 end
 
-def welcome 
+def help 
   puts "Hi, and welcome to the guessing game!!\n 
   The following commands are valid:\n\n  
     guess, help, or exit"
