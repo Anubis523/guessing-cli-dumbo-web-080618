@@ -36,7 +36,7 @@ def run_guessing_game
     user_input = gets.chomp
       if (user_input == "guess")
         number = rand(1..6)
-        exit_condition = guess(number)
+        guess(number)
       elsif (user_input == "help")
         help
       end
