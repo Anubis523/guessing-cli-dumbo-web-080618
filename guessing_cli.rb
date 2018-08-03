@@ -40,7 +40,7 @@ def run_guessing_game
       elsif (user_input == "help")
         help
       end
-    break if (user_input == "exit" || exit_condition == true)
+    break if (user_input == "exit")
   end
   exit
 end
