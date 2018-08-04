@@ -3,10 +3,11 @@
 #helper method that checks the guess 
 def guess (correct_guess)
   input = gets.chomp 
+  msg = ''
   if (input.to_i == correct_guess)
-    puts "You guessed the correct number!"
+    msg = "You guessed the correct number!"
   else
-    puts "The computer guess #{correct_guess}."
+    msg = "The computer guess #{correct_guess}."
   end
 end
 
