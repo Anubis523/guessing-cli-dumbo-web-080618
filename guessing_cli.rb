@@ -29,10 +29,10 @@ end
 def run_guessing_game
   welcome
   help
+  number = rand(1..6)
   loop do 
     user_input = gets.chomp
       if (user_input == "guess")
-        number = rand(1..6)
         guess(number)
       elsif (user_input == "help")
         help
