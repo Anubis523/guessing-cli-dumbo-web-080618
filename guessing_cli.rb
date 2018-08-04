@@ -30,7 +30,6 @@ def run_guessing_game
   welcome
   help
   loop do 
-    exit_condition = false
     user_input = gets.chomp
       if (user_input == "guess")
         number = rand(1..6)
