@@ -24,7 +24,7 @@ def help
 end
 
 def exit (msg = "Goodybe!")
-  puts "msg
+  puts msg
 end
 
 #runs game loop
@@ -42,7 +42,7 @@ def run_guessing_game
       end
     break if (user_input == "exit")
   end
-  puts msg
+  exit(msg)
   exit
 end
 
