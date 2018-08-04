@@ -24,7 +24,7 @@ def help
 end
 
 def exit (msg = "Goodybe!")
-  puts "Goodbye!!"
+  puts "msg
 end
 
 #runs game loop
