@@ -23,7 +23,7 @@ def help
     guess, help, or exit"
 end
 
-def exit 
+def exit (msg = "Goodybe!")
   puts "Goodbye!!"
 end
 
