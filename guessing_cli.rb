@@ -43,7 +43,6 @@ def run_guessing_game
     break if (user_input == "exit")
   end
   exit(msg)
-  exit
 end
 
 # run_guessing_game
