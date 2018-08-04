@@ -31,6 +31,7 @@ end
 def run_guessing_game
   welcome
   help
+  msg = ""
   number = rand(1..6)
   loop do 
     user_input = gets.chomp
