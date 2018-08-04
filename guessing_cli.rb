@@ -45,4 +45,22 @@ def run_guessing_game
   exit(msg)
 end
 
+def run_guessing_game
+  user_input = ""
+  while user_input
+    puts "Guess a number between 1 and 6."
+    user_input = gets.downcase.chomp
+    random_number = rand(1..6).to_s
+    case input.chomp
+    when random_number
+      puts "You guessed the correct number!"
+    when 'exit'
+      puts "Goodbye!"
+      break
+    else
+      puts "The computer guessed #{random_number}."
+    end
+  end
+end
+
 # run_guessing_game
