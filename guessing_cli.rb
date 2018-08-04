@@ -36,7 +36,7 @@ def run_guessing_game
   loop do 
     user_input = gets.chomp
       if (user_input == "guess")
-        guess(number)
+        msg = guess(number)
       elsif (user_input == "help")
         help
       end
